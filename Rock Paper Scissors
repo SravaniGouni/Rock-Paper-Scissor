@@ -1,0 +1,14 @@
+sravani=input()
+sravanthi=input()
+if sravani==sravanthi:
+    print("Tie")
+if sravani=="Scissors" and sravanthi=="Paper":
+    print("sravani Wins")
+elif sravani=="Rock" and sravanthi=="Scissors":
+    print("sravani Wins")
+elif sravani=="Paper" and sravanthi=="Rock":
+    print("sravani Wins")
+elif sravanthi=="Rock" and sravani=="Scissors":
+    print("sravanthi Wins")
+elif sravanthi=="Paper" and sravani=="Rock":
+    print("sravanthi Wins")
